@@ -36,7 +36,8 @@ marquee{
 .top-container {
   position: relative;
   padding-top: 5%;
-  background-color: #4CC5FE;
+  /* background-color: #4CC5FE; */
+  background: linear-gradient(#3f87a6, #cdc794, #f69d3c);
   /* height: 90vh; */
 }
 
