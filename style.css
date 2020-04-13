@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+marquee{
+  position: absolute;
+  top: 12%;
+  right: 0;
+}
+
+#hello{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 300%;
+}
+
+#intro{
+  font-family: 'Rock Salt', cursive;
+  font-size: 200%;
+}
+
+.front-text{
+  display: inline-block;
+  max-width: 60%;
+  margin-top: 100px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 5%;
+  background-color: #4CC5FE;
+  height: 95vh;
+}
+
+.scene{
+  display: block;
+  max-width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  margin-top: 6.25rem;
+}
+
+.cloud-1, .cloud-2, .cloud-3, .sun {
+  width: 8%;
+}
+
+.cloud-1{
+  width: 9%;
+  position: absolute;
+  left: 21.875%;
+  top: 12.5%;
+}
+
+.cloud-2{
+  width: 7%;
+  position: absolute;
+  right: 25%;
+  top: 20.25%;
+}
+
+.cloud-3{
+  width: 5%;
+  position: absolute;
+  bottom: 38.75%;
+  left: 35.25%;
+}
+
+.sun {
+  width: 7%;
+  position: absolute;
+  left: 26.5%;
+  top: 13.25%;
+}
+
+.plane{
+  width: 6%;
+}
+
+.middle-container{
+  height: 100vh;
+}
+
+span {
+  display: inline-block;
+  background-color: #000000;
+  width:4px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%  { background-color: #000000; }
+  49% { background-color: #000000; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #000000; }
+}
