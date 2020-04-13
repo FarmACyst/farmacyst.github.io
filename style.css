@@ -5,7 +5,7 @@ body {
 
 marquee{
   position: absolute;
-  top: 12%;
+  top: 8%;
   right: 0;
 }
 
@@ -57,20 +57,20 @@ marquee{
   width: 9%;
   position: absolute;
   left: 15.875%;
-  top: 11.5%;
+  top: 7.5%;
 }
 
 .cloud-2{
   width: 7%;
   position: absolute;
-  right: 25%;
-  top: 20.25%;
+  right: 20%;
+  top: 18.25%;
 }
 
 .cloud-3{
   width: 5%;
   position: absolute;
-  bottom: 45.75%;
+  bottom: 42.75%;
   left: 30.25%;
 }
 
@@ -78,7 +78,7 @@ marquee{
   width: 7%;
   position: absolute;
   left: 20.5%;
-  top: 12.25%;
+  top: 8.25%;
 }
 
 .plane{
