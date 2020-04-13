@@ -29,14 +29,15 @@ marquee{
 .front-text{
   display: inline-block;
   max-width: 60%;
-  margin-top: 100px;
+  margin-top: 6%;
+  margin-bottom: 24%;
 }
 
 .top-container {
   position: relative;
   padding-top: 5%;
   background-color: #4CC5FE;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .scene{
@@ -55,8 +56,8 @@ marquee{
 .cloud-1{
   width: 9%;
   position: absolute;
-  left: 21.875%;
-  top: 12.5%;
+  left: 15.875%;
+  top: 11.5%;
 }
 
 .cloud-2{
@@ -69,15 +70,15 @@ marquee{
 .cloud-3{
   width: 5%;
   position: absolute;
-  bottom: 45.75%;
+  bottom: 40.75%;
   left: 35.25%;
 }
 
 .sun {
   width: 7%;
   position: absolute;
-  left: 26.5%;
-  top: 13.25%;
+  left: 20.5%;
+  top: 12.25%;
 }
 
 .plane{
