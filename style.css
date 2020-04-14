@@ -243,7 +243,7 @@ ul{
 .intro-text{
   margin-left: auto;
   margin-right: auto;
-  width: 45vw;
+  width: 60vw;
   text-align: justify;
   font-size: 17px;
 }
@@ -314,11 +314,12 @@ ul{
 .buttons{
   background-color: #eff3c6;
   font-family: 'Muli', sans-serif;
+  padding-top: 0.3vh;
+  padding-bottom: 0.3vh;
 }
 
 li{
   line-height: 150%
-
 }
 
 ul{
@@ -355,7 +356,14 @@ p,ul{
   font-family: 'Muli', sans-serif;
 }
 
+.skill-description{
+  margin-left: auto;
+}
 
+ul {
+    width: auto;
+    margin: auto;
+}
 
 
 /* 4cbbb9 for footer

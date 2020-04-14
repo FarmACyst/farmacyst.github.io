@@ -37,7 +37,7 @@ function logger(e){
     }
   }
   else if(e.target.className==="skill-description" || e.target.tagName==="LI"){
-    console.log("Hello");
+    console.log("");
   }
   else{
     document.querySelector('.skill-description').innerHTML="";
