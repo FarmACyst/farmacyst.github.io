@@ -258,6 +258,7 @@ ul{
   margin: none;
   border: none;
   font-size: 17px;
+  cursor: pointer;
 }
 
 .skill-btn:focus{
